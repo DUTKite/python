@@ -1,9 +1,4 @@
-import Tkinter as tk
-window=tk.Tk()
-def sliderupdata(something):
-    red=redslider.get()
-    green=greenslider.get()
-    blue=blueslider.get()
+
 
     colour="#%02x%02x%02x" % (red,green,blue)
     canvas.config(bg=colour)
